@@ -1,5 +1,10 @@
 {
   "redirects": [
-    { "source": "/(.*)", "destination": "https://vrchat.com?utm_source=discovervr", "statusCode": 307 }
+    { "source": "/miku", "destination": "/miku/", "statusCode": 307 },
+    { "source": "/((?!miku).*)", "destination": "https://vrchat.com?utm_source=discovervr", "statusCode": 307 }
+  ],
+  "rewrites": [
+    { "source": "/miku/", "destination": "https://yozora-six.vercel.app/" },
+    { "source": "/miku/:match*", "destination": "https://yozora-six.vercel.app/:match*" }
   ]
 }
