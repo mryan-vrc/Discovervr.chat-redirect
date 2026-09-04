@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/(.*)", "destination": "https://vrchat.com?utm_source=discovervr", "statusCode": 307 }
+  ]
+}
