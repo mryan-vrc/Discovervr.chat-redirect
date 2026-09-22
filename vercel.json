@@ -16,12 +16,7 @@
       "statusCode": 307
     },
     {
-      "source": "/rainy-night",
-      "destination": "/rainy-night/",
-      "statusCode": 307
-    },
-    {
-      "source": "/((?!miku|kaguya|tsukuyomi|rainy-night).*)",
+      "source": "/((?!miku|kaguya|tsukuyomi).*)",
       "destination": "https://vrchat.com?utm_source=discovervr",
       "statusCode": 307
     }
@@ -50,14 +45,6 @@
     {
       "source": "/tsukuyomi/:match*",
       "destination": "https://tsukuyomi-review.vercel.app/:match*"
-    },
-    {
-      "source": "/rainy-night/",
-      "destination": "https://spotlight-rainy-night-cozy-interior.vercel.app/"
-    },
-    {
-      "source": "/rainy-night/:match*",
-      "destination": "https://spotlight-rainy-night-cozy-interior.vercel.app/:match*"
     }
   ]
 }
